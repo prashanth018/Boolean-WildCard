@@ -22,5 +22,5 @@ Syntax for writing queries :
 Boolean Queries	  : <Query> -> <A> (AND|OR) <Query> | <A>
 		        <A> -> NOT <A> | Token
 
-Wild Card Queries : X*Y | X* | *X | *X* (Any wild card query)
+Wild Card Queries : X * Y | X * | * X | * X * (Any wild card query)
 		    Space between terms is treated as AND operation.
