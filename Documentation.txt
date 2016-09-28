@@ -1,0 +1,75 @@
+Modules:
+
+
+NLTK
+The Natural Language Toolkit, or more commonly NLTK, is a suite of libraries and programs for symbolic and statistical natural language processing (NLP) for English written in the Python programming language.
+ 
+Tkinter
+Tkinter is Python's de-facto standard GUI (Graphical User Interface) package. Tkinter is not the only GUI Programming toolkit for Python. It is however the most commonly used one.
+
+re (for regular expressions)
+This module provides regular expression matching operations. A regular expression (or RE) specifies a set of strings that matches it; the functions in this module let you check if a particular string matches a given regular expression (or if a given regular expression matches a particular string, which comes down to the same thing).
+
+
+Sub-Modules:
+
+nltk.tokenize
+It is a module of packages containing different kinds of tokenizations.
+
+nltk.stem.porter
+It is package containing porter stemmer.
+
+StringVar
+This sub-module is used to create a Tkinter String variable.
+
+IntVar
+This sub-module is used to create a Tkinter Integer variable.
+
+
+Functions:
+
+tok
+Takes string as an input and returns a boolean.
+Checks if a string is a token i.e., it returns False if string is equal to AND|OR|NOT and True otherwise.
+
+noting
+Takes list as an argument and returns a list.
+Takes the list as an argument and returns a list that is complement of the given list.
+
+anding
+Takes two lists as arguments and returns a list.
+Takes two lists l and r (say) and returns the intersection of both the lists.
+
+oring
+Takes two lists as arguments and returns a list.
+Takes two lists l and r (say) and returns the union of both the lists.
+
+__init__
+Takes the GUI window-frame as an argument and returns nothing.
+Creates a window-frame which terminates on click on cross button and has entry box, text box, button, and radio button embedded in it
+
+on_button
+Takes the GUI window-frame as an argument and returns nothing.
+Its an event handler for "Search" button, gets triggered whenever a click on Search button is made, it executes the query depending on the Radio Button selected
+
+
+
+Class:
+
+SampleApp
+Takes the Tkinter object as an argument and returns nothing.
+It is an abstraction of the methods __init__ and on_button and other GUI elements.
+
+
+Data-Structures:
+
+Dictionary
+Inbuilt data structure in python, 2 dictionary data structures are used in the code, both are used as HashMaps
+
+Lists
+List is another basic data-structure in python which can be used both like a linked list and like an array.
+Lists are used at many places in the code.
+
+Hashmap
+Hashdictionary and dictionary are 2 variables used in the code, both are used as hashmaps.
+Hashdictionary is used to keep track of unique words and dictionary is used to keep track of lemmatized and tokenized words in the corpus.
